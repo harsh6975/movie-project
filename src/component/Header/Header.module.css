@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 11px 120px;
+  border-bottom: 1px #c0c4cc solid;
+}
+
+.input {
+  position: relative;
+}
+
+.input input {
+  width: 180px;
+  height: 36px;
+  border: 1px solid #c0c4cc;
+  border-radius: 2px;
+  background: #ffffff;
+  padding-left: 30px;
+}
+
+.input img {
+    position: absolute;
+    left: 5%;
+    top: 20%;
+}
