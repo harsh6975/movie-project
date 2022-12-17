@@ -22,3 +22,22 @@
   left: 5%;
   top: 20%;
 }
+
+@media only screen and (max-width: 900px) {
+  .input input {
+    width: 170px;
+    height: 30px;
+    padding-left: 30px;
+  }
+  .header > img {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .input img {
+    position: absolute;
+    left: 22%;
+    top: 30%;
+  }
+}

@@ -1,3 +1,16 @@
 .App {
-  margin: 11px 120px;
+  margin: 11px 120px 11px 120px;
+  align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .App {
+    margin: 11px 60px 11px 60px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .App {
+    margin: 15px 40px 15px 40px;
+  }
 }
