@@ -38,7 +38,7 @@ function MovieCard({ movie }) {
   useEffect(() => {
     setImgUrl(movie.poster_path);
     convertDate(movie.release_date);
-  }, []);
+  }, [movie.poster_path, movie.release_date]);
 
   return (
     <>
