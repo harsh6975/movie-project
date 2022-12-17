@@ -14,3 +14,9 @@
     margin: 15px 40px 15px 40px;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .App {
+    margin: 15px 10px 15px 10px;
+  }
+}
