@@ -32,7 +32,7 @@ function MovieCard({ movie }) {
     let day = date.substring(8, 10);
     setYear(year);
     setDay(day);
-    setMonth(months[month-1]);
+    setMonth(months[month - 1]);
   };
 
   useEffect(() => {
@@ -66,7 +66,11 @@ function MovieCard({ movie }) {
           />
         </div>
         <div className={style.content}>
-          <img src={`${baseUrl}${imgUrl}`} alt={`poster${movie.title}`}></img>
+          {imgUrl ? (
+            <img src={`${baseUrl}${imgUrl}`} alt={`poster${movie.title}`}></img>
+          ) : (
+            "No posterF"
+          )}{" "}
           <div>
             <p>
               <strong>Release date</strong>: {month} {day}, {year}

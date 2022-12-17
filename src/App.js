@@ -6,7 +6,6 @@ import Search from "./component/Search/Search";
 function App() {
   const [search, setSearch] = useState([]);
   const findSearch = (movie) => {
-    console.log("movie", movie);
     setSearch(movie);
   };
   return (

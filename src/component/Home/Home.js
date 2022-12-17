@@ -11,7 +11,6 @@ function Home() {
       `https://api.themoviedb.org/3/discover/movie?api_key=${process.env.REACT_APP_API_KEY}&language=en-US`
     );
     setMoviesList(movies.data.results);
-    console.log(movies);
   };
 
   useEffect(() => {
@@ -22,8 +21,8 @@ function Home() {
     <div className={style.home}>
       <h3>Most Recent Movies</h3>
       <div className={style.movie}>
-        {moviesList.map((movie) => {
-          return <MovieCard movie={movie} />
+        {moviesList.map((movie,index) => {
+          return <MovieCard movie={movie} key={index}/>
         })}
       </div>
     </div>
