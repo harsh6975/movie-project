@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import style from "./Home.module.css";
+import style from "./RecentMovie.module.css";
 import MovieCard from "../MovieCard/MovieCard";
 
-function Home() {
+function RecentMovie() {
   const [moviesList, setMoviesList] = useState([]);
 
   const getMovies = async () => {
@@ -29,4 +29,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default RecentMovie;

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import style from "../Home/Home.module.css";
+import style from "../RecentMovie/RecentMovie.module.css";
 import MovieCard from "../MovieCard/MovieCard";
 import axios from "axios";
 
