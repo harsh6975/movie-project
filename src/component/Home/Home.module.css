@@ -1,5 +1,6 @@
-.movie{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.movie {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: 15px;
 }

@@ -8,12 +8,13 @@
   border-radius: 8px;
   margin-bottom: 27px;
   position: relative;
+  cursor: pointer;
 }
 
 .card p {
   position: absolute;
   left: 5%;
-  top: 0%;
+  top: 5%;
   border: 1px solid #000000;
   background-color: white;
   border-radius: 50%;
@@ -43,4 +44,50 @@
   line-height: 26px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.modal {
+  min-width: 40%;
+  padding: 27px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px 27px;
+}
+
+.heading img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.heading div {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 27px 20px 27px;
+}
+
+.content img {
+  width: 266px;
+  height: 389px;
+}
+
+.content div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 22px;
+}
+
+.content p {
+  font-size: 14px;
 }
